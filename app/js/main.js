@@ -19,4 +19,9 @@ $(function () {
       $("body").removeClass("overflow--hidden");
     });
   });
+
+  $(".footer__title-dropdown").on("click", function () {
+    $(this).next().slideToggle();
+    $(".footer__title-dropdown").toggleClass("footer__title-dropdown--active");
+  });
 });

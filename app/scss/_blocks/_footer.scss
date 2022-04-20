@@ -1,0 +1,106 @@
+.footer {
+  background: #202020;
+  &__top {
+    padding: 120px 0 50px;
+    border-bottom: 1px solid #d8b152;
+    margin: 0;
+  }
+  &__bottom {
+    padding: 50px 0 46px;
+    margin: 0;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  &__list-item {
+    margin-bottom: 10px;
+  }
+  &__list-link {
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    &:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+  }
+  &__phone {
+    position: relative;
+    text-decoration: none;
+    padding-left: 32px;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 22px;
+      height: 22px;
+      background: url("../images/phone-icon.svg") no-repeat;
+      background-size: cover;
+      top: 0;
+      left: 0;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  &__email {
+    position: relative;
+    padding-left: 32px;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 22px;
+      height: 22px;
+      background: url("../images/email-icon.svg") no-repeat;
+      background-size: cover;
+      top: 0;
+      left: 0;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  &__text {
+    display: inline;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+    text-decoration: underline;
+    padding: 0;
+  }
+  &__policy {
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+.social {
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #d8b152;
+    &:hover {
+      background-color: #d8b152;
+      .social__link-icon {
+        fill: #fff;
+      }
+    }
+    &:active {
+      .social__link-icon {
+        fill: #000;
+      }
+    }
+  }
+  &__link-icon {
+    width: 24px;
+    height: 24px;
+    fill: #d8b152;
+  }
+}
