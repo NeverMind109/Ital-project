@@ -1,0 +1,73 @@
+.hero {
+  height: 100vh;
+  margin: 0 auto;
+  &__slider {
+    position: relative;
+  }
+  &__slide-content {
+    background-color: #ccc;
+    background: linear-gradient(
+        180deg,
+        rgba(80, 61, 43, 0.7) 6.75%,
+        rgba(33, 33, 33, 0) 100%
+      ),
+      url("../images/content/hero-slider-img-1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+  }
+  &__wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    margin: auto;
+  }
+  &__information-wrapper {
+    color: #ffffff;
+    margin: 45px 0 0;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 78px;
+    padding-left: 0;
+  }
+  &__registration {
+    padding-right: 0;
+  }
+  &__text {
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &__btn {
+    width: 260px;
+  }
+  .slick-dots {
+    bottom: 57px;
+    z-index: 10;
+  }
+  .slick-dots li {
+    margin: 0 10px;
+  }
+  .slick-dots li button::before {
+    content: "";
+    font-size: 0;
+    line-height: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    opacity: 1;
+    color: transparent;
+  }
+  .slick-dots .slick-active button::before {
+    background-color: #ffffff;
+  }
+  .slick-dotted.slick-slider {
+    margin-bottom: 0;
+  }
+}

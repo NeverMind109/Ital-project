@@ -1,0 +1,48 @@
+.header {
+  &__wrapper {
+    padding-top: 15px;
+    margin: 0;
+  }
+}
+.logo {
+  padding: 0;
+}
+.menu {
+  padding: 0;
+  &__btn {
+    width: 60px;
+    height: 16px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    z-index: 10;
+  }
+  &__btn-line {
+    width: 100%;
+    height: 2px;
+    margin: 0 0 0 auto;
+    background: #d8b152;
+  }
+  &__btn-line-short {
+    width: 44px;
+  }
+}
+.menu-list {
+  display: flex;
+  &__item {
+    &:not(:last-child) {
+      padding-right: 50px;
+    }
+  }
+  &__link {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  &__link-white {
+    color: #ffffff;
+    &:hover {
+      color: #ffffff;
+      border-bottom: 1px solid #d8b152;
+    }
+  }
+}

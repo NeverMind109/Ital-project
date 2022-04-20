@@ -33,7 +33,7 @@ body {
   min-width: 320px;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 27px;
   color: #424242;
@@ -53,5 +53,14 @@ body {
   text-align: center;
   color: #ffffff;
   background: #d8b152;
-  padding: 18px 10px 17px;
+  padding: 17px 10px 16px;
+  border: 1px solid #d8b152;
+  &:hover {
+    border: 1px solid #000;
+    color: #000;
+  }
+  &:active {
+    border: 1px solid #fff;
+    color: #fff;
+  }
 }
