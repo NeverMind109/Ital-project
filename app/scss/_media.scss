@@ -128,8 +128,9 @@
       left: 0;
       right: 0;
       background-color: #fff;
-      overflow-y: scroll;
       padding: 10px 40px 50px 0;
+      overflow-y: scroll;
+      z-index: 30;
     }
     &__item {
       padding: 30px 0;

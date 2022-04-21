@@ -45,4 +45,11 @@
       border-bottom: 1px solid #d8b152;
     }
   }
+  &__link-black {
+    color: #000;
+    &:hover {
+      color: #000;
+      border-bottom: 1px solid #d8b152;
+    }
+  }
 }

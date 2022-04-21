@@ -1,0 +1,82 @@
+.services {
+  padding: 120px 0;
+  &__title {
+    margin-bottom: 60px;
+  }
+  &__wrapper {
+    margin: 0;
+  }
+  &__card {
+    position: relative;
+    width: 360px;
+    height: 360px;
+    padding: 0;
+    &:hover {
+      .services__card-overlay {
+        background: linear-gradient(
+          0deg,
+          rgba(80, 61, 43, 0.4),
+          rgba(80, 61, 43, 0.4)
+        );
+      }
+      .services__card-button {
+        display: flex;
+      }
+    }
+  }
+  &__card-countryhouse {
+    background-image: url("../../images/content/services-img-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  &__card-flat {
+    background-image: url("../../images/content/services-img-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  &__card-nonresidential {
+    background-image: url("../../images/content/services-img-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  &__card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 4;
+    background: linear-gradient(
+      0deg,
+      rgba(80, 61, 43, 0.7),
+      rgba(80, 61, 43, 0.7)
+    );
+  }
+  &__card-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 45px;
+    right: 45px;
+    transform: translateY(-50%);
+    z-index: 5;
+  }
+  &__card-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    color: #ffffff;
+  }
+  &__card-button {
+    display: none;
+    justify-content: center;
+    width: 260px;
+    margin-top: 30px;
+  }
+}
