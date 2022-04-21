@@ -7,6 +7,12 @@
       line-height: 60px;
     }
   }
+  .services {
+    &__card {
+      width: 300px;
+      height: 300px;
+    }
+  }
 }
 @include media-breakpoint-down(lg) {
   .section-title {
@@ -34,6 +40,15 @@
     }
     &__registration {
       padding: 0;
+    }
+  }
+  .services {
+    &__card {
+      width: 360px;
+      height: 360px;
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
     }
   }
   .footer {
@@ -151,6 +166,32 @@
       }
     }
   }
+  .services {
+    padding: 80px 0;
+    &__title {
+      margin-bottom: 40px;
+    }
+    &__card-title {
+      font-size: 20px;
+      line-height: 27px;
+    }
+    &__card-button {
+      width: 200px;
+      margin-top: 20px;
+    }
+  }
+  .our-instagram {
+    padding: 0 0 100px;
+    &__title {
+      margin-bottom: 40px;
+    }
+    &__wrapper {
+      margin: 0 -20px 30px;
+    }
+    &__link {
+      margin-bottom: 20px;
+    }
+  }
   .footer {
     &__title {
       font-size: 14px;
@@ -167,6 +208,20 @@
   }
 }
 @include media-breakpoint-down(sm) {
+  .services {
+    &__card {
+      width: 300px;
+      height: 300px;
+    }
+  }
+  .our-instagram {
+    &__img {
+      height: 140px;
+    }
+    &__btn {
+      width: 100%;
+    }
+  }
 }
 @media (max-width: 374px) {
   .footer {
@@ -176,6 +231,15 @@
     &__contacts {
       width: 100%;
       margin-bottom: 30px;
+    }
+  }
+  .our-instagram {
+    &__link {
+      text-align: center;
+    }
+    &__img {
+      width: 140px;
+      padding: 0;
     }
   }
 }
