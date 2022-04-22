@@ -1,0 +1,32 @@
+.publications {
+  padding: 60px 0 140px;
+  &__title {
+    margin-bottom: 50px;
+  }
+  &__wrapper {
+    margin: 0;
+  }
+  &__card {
+    padding: 40px 0 40px;
+    border-bottom: 1px solid #aea38b;
+    &:nth-child(odd) {
+      border-right: 1px solid #aea38b;
+    }
+    &:nth-child(even) {
+      padding-left: 40px;
+    }
+  }
+  &__card-heading {
+    font-size: 28px;
+    line-height: 39px;
+    margin-bottom: 20px;
+  }
+  &__card-text {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 30px;
+  }
+  &__card-btn {
+    width: 260px;
+  }
+}

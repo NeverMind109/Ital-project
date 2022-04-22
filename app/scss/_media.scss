@@ -98,6 +98,21 @@
       margin-bottom: 20px;
     }
   }
+  .publications {
+    padding: 45px 0 80px;
+    &__title {
+      margin-bottom: 0px;
+    }
+    &__card {
+      padding: 30px 0 40px;
+      &:nth-child(odd) {
+        border-right: none;
+      }
+      &:nth-child(even) {
+        padding-left: 0;
+      }
+    }
+  }
   .footer {
     &__top {
       padding: 90px 0 45px;
@@ -150,6 +165,11 @@
   .section-title {
     font-size: 25px;
     line-height: 34px;
+  }
+  .button-gold {
+    font-size: 14px;
+    line-height: 19px;
+    padding: 15px 10px 14px;
   }
   .hero {
     margin: 0 auto 35px;
@@ -295,6 +315,18 @@
       line-height: 21px;
     }
   }
+  .publications {
+    &__card-heading {
+      font-size: 18px;
+      line-height: 25px;
+      margin-bottom: 10px;
+    }
+    &__card-text {
+      font-size: 14px;
+      line-height: 21px;
+      margin-bottom: 20px;
+    }
+  }
   .footer {
     &__title {
       font-size: 14px;
@@ -343,17 +375,13 @@
       width: 100%;
     }
   }
-}
-@media (max-width: 374px) {
-  .footer {
-    &__logo {
-      margin-bottom: 30px;
-    }
-    &__contacts {
+  .publications {
+    &__card-btn {
       width: 100%;
-      margin-bottom: 30px;
     }
   }
+}
+@media (max-width: 374px) {
   .our-instagram {
     &__link {
       text-align: center;
@@ -366,6 +394,15 @@
   .reviews {
     &__slide-wrapper {
       width: 80%;
+    }
+  }
+  .footer {
+    &__logo {
+      margin-bottom: 30px;
+    }
+    &__contacts {
+      width: 100%;
+      margin-bottom: 30px;
     }
   }
 }
