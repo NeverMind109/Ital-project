@@ -1,4 +1,12 @@
 @include media-breakpoint-down(xxl) {
+  .reviews {
+    &__slider-prev {
+      left: 20%;
+    }
+    &__slider-next {
+      right: 20%;
+    }
+  }
 }
 @include media-breakpoint-down(xl) {
   .hero {
@@ -11,6 +19,14 @@
     &__item {
       width: 300px;
       height: 300px;
+    }
+  }
+  .reviews {
+    &__slider-prev {
+      left: 7%;
+    }
+    &__slider-next {
+      right: 0%;
     }
   }
 }
@@ -193,6 +209,18 @@
       margin-bottom: 20px;
     }
   }
+  .reviews {
+    padding: 50px 0 40px;
+    &__title {
+      margin-bottom: 40px;
+    }
+    &__slide-wrapper {
+      width: 65%;
+    }
+    &__slide-profile {
+      margin-bottom: 15px;
+    }
+  }
   .footer {
     &__title {
       font-size: 14px;
@@ -223,6 +251,16 @@
       width: 100%;
     }
   }
+  .reviews {
+    &__slide-name {
+      font-size: 20px;
+      line-height: 24px;
+    }
+    &__slide-text {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
 }
 @media (max-width: 374px) {
   .footer {
@@ -241,6 +279,11 @@
     &__img {
       width: 140px;
       padding: 0;
+    }
+  }
+  .reviews {
+    &__slide-wrapper {
+      width: 80%;
     }
   }
 }

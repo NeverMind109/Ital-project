@@ -61,6 +61,7 @@ function scripts() {
     "node_modules/wow.js/dist/wow.js",
     "node_modules/bootstrap/dist/js/bootstrap.bundle.js",
     "node_modules/@fancyapps/ui/dist/fancybox.umd.js",
+    "app/js/jquery.rateyo.js",
     "app/js/main.js",
   ])
     .pipe(concat("main.min.js"))
