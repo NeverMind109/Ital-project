@@ -256,6 +256,58 @@
             </div>
           </div>
         </section>
+        <section class="give-feedback">
+          <div class="container">
+            <h2 class="section-title give-feedback__title">
+              Заказывали проект у нас?
+            </h2>
+            <p class="give-feedback__text">
+              Оставьте ваш отзыв в форме ниже и мы его опубликуем на нашем сайте
+            </p>
+            <form
+              class="row give-feedback__form d-flex justify-content-between"
+              action="#"
+            >
+              <div
+                class="give-feedback__form-inputs d-flex flex-column justify-content-between col-12 col-lg-4"
+              >
+                <input
+                  class="give-feedback__form-input"
+                  type="text"
+                  placeholder="Ваше имя"
+                  required
+                />
+                <input
+                  class="give-feedback__form-input"
+                  type="tel"
+                  placeholder="Номер телефона"
+                  required
+                />
+                <button
+                  class="button-gold give-feedback__form-btn d-none d-lg-flex"
+                  type="submit"
+                >
+                  <span class="give-feedback__form-btn-text">Отправить</span>
+                </button>
+              </div>
+              <div
+                class="give-feedback__form-review d-flex flex-column flex-lg-row justify-content-center justify-content-lg-end col-12 col-lg-8"
+              >
+                <textarea
+                  class="give-feedback__form-textarea"
+                  placeholder="Ваш отзыв"
+                  required
+                ></textarea>
+                <button
+                  class="button-gold give-feedback__form-btn d-flex d-lg-none"
+                  type="submit"
+                >
+                  <span class="give-feedback__form-btn-text">Отправить</span>
+                </button>
+              </div>
+            </form>
+          </div>
+        </section>
       </main>
       <footer class="footer">
         <div class="container">
@@ -295,7 +347,7 @@
                   <a class="footer__list-link" href="#">Нежилые помещения</a>
                 </li>
                 <li class="footer__list-item">
-                  <a class="footer__list-link" href="#">Медиафайлы</a>
+                  <a class="footer__list-link" href="media.html">Медиафайлы</a>
                 </li>
                 <li class="footer__list-item">
                   <a class="footer__list-link" href="#">О компании</a>
@@ -329,7 +381,7 @@
             >
               <h4 class="footer__title d-none d-lg-flex">Соц. сети</h4>
               <ul
-                class="social__list footer__list d-flex justify-content-center justify-content-lg-between"
+                class="social__list footer__list d-flex justify-content-between"
               >
                 <li class="social__list-item">
                   <a class="social__link facebook" href="#">
