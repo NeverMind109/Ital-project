@@ -87,6 +87,17 @@
       margin-bottom: 20px;
     }
   }
+  .awards {
+    &__card-image {
+      margin-bottom: 20px;
+    }
+    &__card-information {
+      margin-left: 0;
+    }
+    &__card-description {
+      margin-bottom: 20px;
+    }
+  }
   .footer {
     &__top {
       padding: 90px 0 45px;
@@ -266,6 +277,24 @@
       }
     }
   }
+  .awards {
+    padding: 40px 0 100px;
+    &__title {
+      margin-bottom: 0px;
+    }
+    &__card {
+      padding: 40px 0;
+    }
+    &__card-heading {
+      font-size: 18px;
+      line-height: 25px;
+      margin-bottom: 10px;
+    }
+    &__card-description {
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
   .footer {
     &__title {
       font-size: 14px;
@@ -304,6 +333,14 @@
     &__slide-text {
       font-size: 14px;
       line-height: 18px;
+    }
+  }
+  .awards {
+    &__card-img {
+      width: 100%;
+    }
+    &__card-btn {
+      width: 100%;
     }
   }
 }
