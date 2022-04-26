@@ -1,0 +1,385 @@
+.tudor {
+  padding: 60px 0 0;
+  &__title {
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 63px;
+    margin-bottom: 50px;
+  }
+  &__comparison {
+    height: 875px;
+    margin: 0 auto 10px;
+  }
+  &__roadmap {
+    position: relative;
+    padding-bottom: 135px;
+    margin-bottom: 50px;
+  }
+  &__roadmap-item {
+    position: absolute;
+    width: 360px;
+    text-align: center;
+  }
+  &__roadmap-item-first {
+    top: 60px;
+    left: 10px;
+  }
+  &__roadmap-item-second {
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &__roadmap-item-third {
+    top: 60px;
+    right: 10px;
+  }
+  &__roadmap-item-fourth {
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &__roadmap-item-fifth {
+    bottom: 0px;
+    right: 10px;
+  }
+  &__roadmap-date {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &__advantages {
+    margin-bottom: 70px;
+  }
+  &__advantages-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    padding: 23px 20px;
+    background: #aea38b;
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+  &__advantages-text {
+    text-align: center;
+    color: #ffffff;
+  }
+  &__general {
+    margin: 0 0 140px;
+  }
+  &__general-images {
+    padding: 0;
+  }
+  &__general-img {
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+  &__general-information {
+    padding: 0 0 0 40px;
+  }
+  &__holl {
+    margin-bottom: 40px;
+  }
+  &__holl-wrapper {
+    margin: -63px 0 50px;
+  }
+  &__holl-img {
+    padding: 0;
+  }
+  &__holl-wrapper-text {
+    padding: 0 40px;
+  }
+  &__holl-text {
+    margin-bottom: 10px;
+  }
+  &__living-room-image {
+    margin-bottom: 120px;
+  }
+  &__living-room-img-big {
+    max-width: 100%;
+  }
+  &__living-room-title {
+    margin-bottom: 50px;
+  }
+  &__living-room-wrapper {
+    margin: 0 0 50px;
+  }
+  &__living-room-img-small {
+    padding: 0;
+  }
+  &__living-room-list {
+    padding: 0 0 0 40px;
+  }
+  &__roadmap-mini-inner {
+    position: relative;
+    padding-bottom: 170px;
+    margin-bottom: 50px;
+  }
+  &__roadmap-mini-item {
+    position: absolute;
+    width: 360px;
+    top: 65px;
+    text-align: center;
+  }
+  &__roadmap-mini-item-first {
+    left: 10px;
+  }
+  &__roadmap-mini-item-second {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &__roadmap-mini-item-third {
+    right: 10px;
+  }
+  &__roadmap-mini-date {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 20px;
+  }
+  &__roadmap-mini-blockquote {
+    height: 400px;
+    margin: 0 auto 50px;
+  }
+  &__roadmap-mini-wrapper {
+    margin: 0 0 120px;
+  }
+  &__roadmap-mini-images {
+    padding: 0;
+  }
+  &__roadmap-mini-img-1 {
+    margin-right: 40px;
+  }
+  &__roadmap-mini-img-2 {
+    margin-top: 112px;
+  }
+  &__roadmap-mini-information {
+    padding: 0 0 0 40px;
+  }
+  &__kitchen-wrapper {
+    margin: 0 0 50px;
+  }
+  &__kitchen-information {
+    padding: 0 40px 0 0;
+  }
+  &__kitchen-title {
+    margin-bottom: 40px;
+  }
+  &__kitchen-blockquote {
+    height: 520px;
+    margin: 0 auto 50px;
+  }
+  &__kitchen-img-big {
+    padding: 0;
+  }
+  &__kitchen-inner {
+    margin: 0 0 120px;
+  }
+  &__kitchen-img-small {
+    padding: 0;
+  }
+  &__kitchen-description {
+    padding: 0 0 0 40px;
+  }
+  &__dining-room-wrapper {
+    margin: 0 0 140px;
+  }
+  &__dining-room-information {
+    padding: 0;
+  }
+  &__dining-room-title {
+    margin-bottom: 40px;
+  }
+  &__dining-room-text {
+    margin-bottom: 50px;
+  }
+  &__dining-room-img-small {
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+  &__dining-room-img-big {
+    padding: 0;
+    margin: 0;
+  }
+  &__holl-additional-wrapper {
+    margin: 0 0 50px;
+  }
+  &__holl-additional-information {
+    padding: 0 40px;
+  }
+  &__holl-additional-img-small {
+    padding: 0;
+  }
+  &__holl-additional-title {
+    margin-bottom: 40px;
+  }
+  &__master-bedroom-image {
+    margin-bottom: 120px;
+  }
+  &__master-bedroom-large-img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  &__master-bedroom-wrapper {
+    margin: 0 0 140px;
+  }
+  &__master-bedroom-img {
+    padding: 0;
+  }
+  &__master-bedroom-information {
+    padding: 0 0 0 40px;
+  }
+  &__master-bedroom-title {
+    margin-bottom: 40px;
+  }
+  &__master-bedroom-text {
+    margin-bottom: 50px;
+  }
+  &__master-bedroom-small-img {
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+  &__bathroom-wrapper {
+    margin: 0 0 120px;
+  }
+  &__bathroom-information {
+    padding: 0 40px 0 0;
+  }
+  &__bathroom-title {
+    margin-bottom: 40px;
+  }
+  &__bathroom-images {
+    padding: 0;
+  }
+  &__bathroom-img {
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+  &__guest-bedroom {
+    margin-bottom: 140px;
+  }
+  &__guest-bedroom-title {
+    margin-bottom: 40px;
+  }
+  &__guest-bedroom-text {
+    margin-bottom: 50px;
+  }
+  &__guest-bedroom-images {
+    margin: 0 0 50px;
+  }
+  &__guest-bedroom-small-img {
+    padding: 0;
+    &:not(:last-child) {
+      padding-right: 40px;
+    }
+  }
+  &__guest-bedroom-big-img {
+    padding: 0;
+    &:not(:last-child) {
+      padding-right: 40px;
+    }
+  }
+  &__bathroom-additional-wrapper {
+    margin: 0 0 140px 0;
+  }
+  &__bathroom-additional-images {
+    padding: 0;
+  }
+  &__bathroom-additional-img {
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+  &__bathroom-additional-information {
+    padding: 0 0 0 40px;
+  }
+  &__bathroom-additional-title {
+    margin-bottom: 40px;
+  }
+  &__story {
+    margin-bottom: 120px;
+  }
+  &__story-blockquote {
+    height: 390px;
+    margin: 0 auto 50px;
+  }
+  &__story-wrapper {
+    margin: 0 0 50px;
+  }
+  &__story-catalog {
+    padding: 0 40px 0 0;
+  }
+  &__story-inner {
+    margin: 0 0 50px;
+  }
+  &__story-images {
+    padding: 0;
+  }
+  &__story-img-small {
+    max-width: 100%;
+    padding: 0;
+    &:not(:last-child) {
+      margin-bottom: 45px;
+    }
+  }
+  &__story-img-avarage {
+    max-width: 100%;
+    padding: 0;
+    &:not(:last-child) {
+      padding-right: 40px;
+    }
+  }
+  &__story-img-big {
+    max-width: 100%;
+    padding: 0;
+    &:not(:last-child) {
+      padding-right: 40px;
+    }
+  }
+}
+.slider {
+  display: none;
+  padding: 0;
+  &__slide-img {
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  .slick-dots {
+    position: absolute;
+    bottom: 12px;
+    z-index: 10;
+  }
+  .slick-dots li {
+    margin: 0 10px;
+  }
+  .slick-dots li button::before {
+    content: "";
+    font-size: 0;
+    line-height: 0;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    top: 4px;
+    left: 4px;
+    opacity: 1;
+    color: transparent;
+  }
+  .slick-dots .slick-active button::before {
+    background-color: #ffffff;
+  }
+  .slick-dotted.slick-slider {
+    margin-bottom: 0;
+  }
+}
+.slider.slick-dotted.slick-slider {
+  margin-bottom: 0px;
+}

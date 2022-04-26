@@ -18,6 +18,9 @@ $(function () {
       $(".menu-list").removeClass("menu-list--active");
       $("body").removeClass("overflow--hidden");
     });
+    $(".menu-list__dropdown").on("click", function () {
+      $(".menu-list").addClass("menu-list--active");
+    });
   });
 
   $(".footer__title-dropdown").on("click", function () {
@@ -66,6 +69,32 @@ $(function () {
       },
     ],
   });
+
+  $(window).on("load resize", function () {
+    var width = $(document).width();
+    if (width <= 992) {
+      $(".slider").not(".slick-initialized").slick({
+        dots: true,
+        autoplay: false,
+        speed: 300,
+        arrows: false,
+        infinite: true,
+      });
+    } else {
+      if ($(".slider").hasClass("slick-initialized")) {
+        $(".slider").slick("unslick");
+      }
+    }
+  });
+
+  $(".tudor__dining-room-slider").slick({});
+  $(".tudor__holl-additional-slider").slick({});
+  $(".tudor__master-bedroom-slider").slick({});
+  $(".tudor__bathroom-slider").slick({});
+  $(".tudor__guest-bedroom-slider").slick({});
+  $(".tudor__bathroom-additional-slider").slick({});
+  $(".tudor__story-slider").slick({});
+
   $(".rate-yo").rateYo({
     readOnly: true,
     spacing: "5px",

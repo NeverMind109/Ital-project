@@ -46,10 +46,55 @@
     }
   }
   &__link-black {
-    color: #000;
+    color: #424242;
     &:hover {
-      color: #000;
+      color: #424242;
       border-bottom: 1px solid #d8b152;
+    }
+  }
+  &__dropdown {
+    &:after {
+      vertical-align: middle;
+      margin-left: 10px;
+    }
+  }
+  &__dropdown-list {
+    padding: 0;
+    border-radius: 0;
+    margin: 5px 0 0 !important;
+  }
+  &__dropdown-list-black {
+    background-color: #fff;
+    .menu-list__dropdown-link {
+      color: #424242;
+      padding: 15px 10px;
+      border-left: 1px solid #fff;
+      &:hover {
+        color: #424242;
+        background-color: #fff;
+        border-left: 1px solid #424242;
+      }
+      &:active {
+        color: #424242;
+        background-color: #fff;
+      }
+    }
+  }
+  &__dropdown-list-white {
+    background-color: #424242;
+    .menu-list__dropdown-link {
+      color: #fff;
+      padding: 15px 10px;
+      border-left: 1px solid #424242;
+      &:hover {
+        color: #fff;
+        background-color: #424242;
+        border-left: 1px solid #fff;
+      }
+      &:active {
+        color: #fff;
+        background-color: #424242;
+      }
     }
   }
 }

@@ -73,9 +73,42 @@ body {
   &:hover {
     border: 1px solid #000;
     color: #000;
+    transition: all ease-in-out 0.2s;
   }
   &:active {
     border: 1px solid #fff;
     color: #fff;
+    transition: all ease-in-out 0.2s;
   }
+}
+.record {
+  &::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #424242;
+    margin-right: 5px;
+  }
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+.blockquote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1400px;
+  background: #aea38b;
+}
+.blockquote-text {
+  max-width: 960px;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  text-align: center;
+  color: #ffffff;
 }

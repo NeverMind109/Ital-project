@@ -11,6 +11,8 @@
     width: 360px;
     height: 360px;
     padding: 0;
+    transition-delay: 0.16s;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
     &:hover {
       .cards__item-overlay {
         background: linear-gradient(

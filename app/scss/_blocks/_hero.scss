@@ -7,6 +7,10 @@
   }
   &__slide-content {
     background-color: #ccc;
+    height: 100vh;
+    width: 100%;
+  }
+  &__slide-img-1 {
     background: linear-gradient(
         180deg,
         rgba(80, 61, 43, 0.7) 6.75%,
@@ -15,8 +19,66 @@
       url("../images/content/hero-slider-img-1.jpg");
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    width: 100%;
+  }
+  &__slide-img-2 {
+    background: linear-gradient(
+        180deg,
+        rgba(80, 61, 43, 0.7) 6.75%,
+        rgba(33, 33, 33, 0) 100%
+      ),
+      url("../images/content/hero-slider-img-2.png");
+    background-size: cover;
+    background-position: center;
+  }
+  &__slide-img-3 {
+    background: linear-gradient(
+        180deg,
+        rgba(80, 61, 43, 0.7) 6.75%,
+        rgba(33, 33, 33, 0) 100%
+      ),
+      url("../images/content/hero-slider-img-3.png");
+    background-size: cover;
+    background-position: center;
+  }
+  &__slide-img-4 {
+    background: linear-gradient(
+        180deg,
+        rgba(80, 61, 43, 0.7) 6.75%,
+        rgba(33, 33, 33, 0) 100%
+      ),
+      url("../images/content/hero-slider-img-4.png");
+    background-size: cover;
+    background-position: center;
+  }
+  &__slide-img-5 {
+    background: linear-gradient(
+        180deg,
+        rgba(80, 61, 43, 0.7) 6.75%,
+        rgba(33, 33, 33, 0) 100%
+      ),
+      url("../images/content/hero-slider-img-5.png");
+    background-size: cover;
+    background-position: center;
+  }
+  &__slide-img-6 {
+    background: linear-gradient(
+        180deg,
+        rgba(80, 61, 43, 0.7) 6.75%,
+        rgba(33, 33, 33, 0) 100%
+      ),
+      url("../images/content/hero-slider-img-6.png");
+    background-size: cover;
+    background-position: center;
+  }
+  &__slide-img-7 {
+    background: linear-gradient(
+        180deg,
+        rgba(80, 61, 43, 0.7) 6.75%,
+        rgba(33, 33, 33, 0) 100%
+      ),
+      url("../images/content/hero-slider-img-7.png");
+    background-size: cover;
+    background-position: center;
   }
   &__wrapper {
     position: absolute;

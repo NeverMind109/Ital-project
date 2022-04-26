@@ -7,6 +7,35 @@
       right: 20%;
     }
   }
+  .tudor {
+    &__comparison {
+      height: 800px;
+    }
+    &__comparison-slider {
+      height: 800px;
+    }
+    &__roadmap-item-first {
+      top: 75px;
+    }
+    &__roadmap-item-second {
+      top: 75px;
+    }
+    &__roadmap-item-third {
+      top: 75px;
+    }
+    &__roadmap-item-fourth {
+      bottom: 5px;
+    }
+    &__roadmap-item-fifth {
+      bottom: 5px;
+    }
+    &__master-bedroom-img {
+      width: 300px;
+    }
+    &__master-bedroom-small-img {
+      width: 330px;
+    }
+  }
 }
 @include media-breakpoint-down(xl) {
   .hero {
@@ -27,6 +56,109 @@
     }
     &__slider-next {
       right: 0%;
+    }
+  }
+  .tudor {
+    &__comparison {
+      height: 700px;
+    }
+    &__comparison-slider {
+      height: 700px;
+    }
+    &__roadmap-item {
+      width: 290px;
+    }
+    &__roadmap-item-first {
+      top: 90px;
+    }
+    &__roadmap-item-second {
+      top: 90px;
+    }
+    &__roadmap-item-third {
+      top: 90px;
+    }
+    &__roadmap-item-fourth {
+      bottom: 10px;
+    }
+    &__roadmap-item-fifth {
+      bottom: 37px;
+    }
+    &__advantages-card {
+      width: 265px;
+    }
+    &__general-information {
+      padding: 0;
+      margin-bottom: 30px;
+    }
+    &__holl-title {
+      margin-bottom: 30px;
+    }
+    &__holl-wrapper {
+      margin: 0 0 30px;
+    }
+    &__holl-img {
+      width: 350px;
+      height: 250px;
+    }
+    &__holl-wrapper-text {
+      padding: 0;
+      margin-bottom: 30px;
+    }
+    &__living-room-img-big {
+      height: 600px;
+    }
+    &__roadmap-mini-inner {
+      padding-bottom: 225px;
+    }
+    &__roadmap-mini-item {
+      width: 265px;
+    }
+    &__roadmap-mini-img-2 {
+      margin-top: 0;
+    }
+    &__roadmap-mini-information {
+      padding: 0;
+      margin-bottom: 20px;
+    }
+    &__dining-room-img-small {
+      width: 300px;
+    }
+    &__master-bedroom-large-img {
+      height: 600px;
+    }
+    &__master-bedroom-img {
+      width: 290px;
+    }
+    &__master-bedroom-small-img {
+      width: 290px;
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+    &__bathroom-information {
+      padding: 0;
+      margin-bottom: 20px;
+    }
+    &__bathroom-img {
+      &:not(:last-child) {
+        margin-right: 0px;
+      }
+    }
+  }
+  .service-list {
+    &__item-text {
+      &::before {
+        width: 85%;
+      }
+    }
+  }
+  .application {
+    &__form-input {
+      width: 300px;
+      margin-right: 20px;
+    }
+    &__btn {
+      width: 300px;
     }
   }
 }
@@ -113,6 +245,284 @@
       }
     }
   }
+  .tudor {
+    padding: 60px 0 0;
+    &__title {
+      margin-bottom: 40px;
+    }
+    &__comparison {
+      height: 500px;
+    }
+    &__comparison-slider {
+      height: 500px;
+    }
+    &__roadmap {
+      display: flex;
+      position: relative;
+      padding-bottom: 0;
+      margin-bottom: 40px;
+    }
+    &__roadmap-list {
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        height: 81%;
+        width: 1px;
+        background-color: #aea38b;
+        margin-top: 20px;
+      }
+    }
+    &__roadmap-item {
+      position: relative;
+      width: 100%;
+      text-align: left;
+      padding: 0 0 30px 13px;
+      &::before {
+        content: "";
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        background: url("../images/roadmap-mark.svg") no-repeat;
+        background-position: center;
+        background-size: cover;
+        left: -6px;
+        top: 18px;
+      }
+    }
+    &__roadmap-mini-blockquote {
+      margin: 0 auto 40px;
+    }
+    &__roadmap-item-first {
+      top: 0;
+      left: 0;
+    }
+    &__roadmap-item-second {
+      top: 0;
+      left: 0;
+      transform: translateX(0%);
+    }
+    &__roadmap-item-third {
+      top: 0;
+      right: 0;
+    }
+    &__roadmap-item-fourth {
+      bottom: 0;
+      left: 0;
+      transform: translateX(0%);
+    }
+    &__roadmap-item-fifth {
+      bottom: 0;
+      right: 0;
+    }
+    &__advantages-card {
+      width: 400px;
+      &:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 20px;
+      }
+    }
+    &__general {
+      margin: 0 0 80px;
+    }
+    &__holl-img {
+      width: 300px;
+    }
+    &__living-room-img-big {
+      width: 100%;
+      height: 500px;
+    }
+    &__living-room-title {
+      margin-bottom: 20px;
+    }
+    &__living-room-wrapper {
+      margin: 0 0 40px;
+    }
+    &__living-room-list {
+      padding: 0;
+      margin-bottom: 20px;
+    }
+    &__roadmap-mini-list {
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        height: 68%;
+        width: 1px;
+        background-color: #aea38b;
+        margin-top: 85px;
+      }
+    }
+    &__roadmap-mini-inner {
+      padding-bottom: 35px;
+    }
+    &__roadmap-mini-item {
+      position: relative;
+      width: 100%;
+      text-align: left;
+      padding: 0 0 30px 20px;
+      &::before {
+        content: "";
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        background: url("../images/roadmap-mark.svg") no-repeat;
+        background-position: center;
+        background-size: cover;
+        left: -6px;
+        top: 18px;
+      }
+    }
+    &__roadmap-mini-item-first {
+      left: 0;
+    }
+    &__roadmap-mini-item-second {
+      left: 0%;
+      transform: translateX(0%);
+    }
+    &__roadmap-mini-item-third {
+      right: 0;
+    }
+    &__kitchen-information {
+      padding: 0;
+      margin-bottom: 20px;
+    }
+    &__kitchen-title {
+      margin-bottom: 20px;
+    }
+    &__kitchen-img-big {
+      width: 100%;
+    }
+    &__kitchen-blockquote {
+      margin: 0 auto 40px;
+    }
+    &__kitchen-inner {
+      margin: 0 0 80px;
+    }
+    &__kitchen-img-small {
+      width: 100%;
+    }
+    &__kitchen-description {
+      padding: 0;
+      margin-bottom: 20px;
+    }
+    &__dining-room-wrapper {
+      margin: 0 0 80px;
+    }
+    &__dining-room-title {
+      margin-bottom: 30px;
+    }
+    &__dining-room-text {
+      margin-bottom: 20px;
+    }
+    &__dining-room-img-small {
+      &:not(:last-child) {
+        margin-right: 0px;
+      }
+    }
+    &__holl-additional-wrapper {
+      margin: 0 0 80px;
+    }
+    &__holl-additional-information {
+      padding: 0;
+      margin-bottom: 20px;
+    }
+    &__holl-additional-title {
+      margin-bottom: 30px;
+    }
+    &__master-bedroom-wrapper {
+      margin: 0 0 80px;
+    }
+    &__master-bedroom-information {
+      padding: 0;
+      margin-bottom: 20px;
+    }
+    &__master-bedroom-title {
+      margin-bottom: 30px;
+    }
+    &__master-bedroom-text {
+      margin-bottom: 0px;
+    }
+    &__bathroom-wrapper {
+      margin: 0 0 80px;
+    }
+    &__bathroom-information {
+      padding: 0;
+      margin-bottom: 20px;
+    }
+    &__bathroom-title {
+      margin-bottom: 30px;
+    }
+    &__guest-bedroom {
+      margin-bottom: 80px;
+    }
+    &__guest-bedroom-title {
+      margin-bottom: 30px;
+    }
+    &__guest-bedroom-text {
+      margin-bottom: 20px;
+    }
+    &__bathroom-additional-wrapper {
+      margin: 0 0 100px 0;
+    }
+    &__bathroom-additional-information {
+      padding: 0;
+      margin-bottom: 20px;
+    }
+    &__bathroom-additional-title {
+      margin-bottom: 30px;
+    }
+    &__story {
+      margin-bottom: 80px;
+    }
+    &__story-blockquote {
+      margin: 0 auto 40px;
+    }
+    &__story-wrapper {
+      margin: 0 0 20px;
+    }
+    &__story-catalog {
+      padding: 0;
+    }
+  }
+  .blockquote {
+    width: 100%;
+    height: auto;
+    padding: 90px 30px 100px;
+  }
+  .slider {
+    display: block;
+  }
+  .service-list {
+    &__wrapper {
+      margin-bottom: 100px;
+    }
+    &__title {
+      margin-bottom: 30px;
+    }
+    &__item-text {
+      &::before {
+        width: 85%;
+      }
+    }
+  }
+  .application {
+    padding: 80px 0 100px;
+    &__text {
+      margin-bottom: 40px;
+    }
+    &__form-input {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    &__btn-wrapper {
+      width: 100%;
+    }
+    &__btn {
+      width: 100%;
+    }
+  }
   .footer {
     &__top {
       padding: 90px 0 45px;
@@ -126,7 +536,11 @@
       margin-bottom: 50px;
     }
     &__contacts {
+      padding-right: 0;
       margin-bottom: 50px;
+    }
+    &__information {
+      padding: 0;
     }
     &__title-dropdown {
       position: relative;
@@ -154,6 +568,7 @@
     }
   }
   .social {
+    padding: 0;
     margin: 0 0 50px;
   }
 }
@@ -327,6 +742,93 @@
       margin-bottom: 20px;
     }
   }
+  .tudor {
+    padding: 50px 0 0;
+    &__comparison {
+      height: 390px;
+      margin: 0 0 30px;
+    }
+    &__comparison-slider {
+      height: 390px;
+    }
+    &__roadmap-item {
+      &::before {
+        top: 10px;
+      }
+    }
+    &__roadmap-date {
+      font-size: 22px;
+      line-height: 30px;
+      margin-bottom: 10px;
+    }
+    &__advantages {
+      margin-bottom: 40px;
+    }
+    &__general-img {
+      width: 200px;
+      height: 300px;
+    }
+    &__holl-img {
+      width: 200px;
+      height: 150px;
+    }
+    &__holl-img {
+      &:not(:last-child) {
+        margin-right: 40px;
+      }
+    }
+    &__living-room-img-big {
+      height: 350px;
+    }
+    &__roadmap-mini-date {
+      font-size: 22px;
+      line-height: 30px;
+      margin-bottom: 10px;
+    }
+    &__roadmap-mini-img {
+      width: 200px;
+      height: 300px;
+    }
+    &__kitchen-img-big {
+      height: 300px;
+    }
+  }
+  .slider {
+    &__slide-img {
+      width: 100%;
+    }
+  }
+  .service-list {
+    &__item {
+      margin-bottom: 20px;
+      &:before {
+        font-size: 20px;
+        line-height: 24px;
+      }
+    }
+    &__item-text {
+      &::before {
+        width: 95%;
+      }
+    }
+    &__item-text {
+      padding: 0;
+      &::before {
+        margin: -6px 0 6px 40px;
+      }
+    }
+  }
+  .application {
+    &__form-input {
+      font-size: 14px;
+      line-height: 19px;
+      padding: 16px 20px 15px;
+      &::placeholder {
+        font-size: 14px;
+        line-height: 19px;
+      }
+    }
+  }
   .footer {
     &__title {
       font-size: 14px;
@@ -380,6 +882,54 @@
       width: 100%;
     }
   }
+  .tudor {
+    &__comparison {
+      height: 280px;
+    }
+    &__comparison-slider {
+      height: 280px;
+    }
+    &__advantages-card {
+      width: 100%;
+      padding: 13px 30px 15px;
+    }
+    &__general-img {
+      width: 140px;
+      height: 180px;
+    }
+    &__holl-img {
+      width: 140px;
+      height: 180px;
+    }
+    &__living-room-img-big {
+      height: 240px;
+    }
+    &__roadmap-mini-img {
+      width: 140px;
+      height: 180px;
+    }
+    &__kitchen-img-big {
+      height: 200px;
+    }
+  }
+  .service-list {
+    &__item-text {
+      &::before {
+        width: 90%;
+      }
+    }
+  }
+  .blockquote-text {
+    width: 90%;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .slider {
+    &__slide-img {
+      width: 300px;
+      height: 200px;
+    }
+  }
 }
 @media (max-width: 374px) {
   .our-instagram {
@@ -394,6 +944,32 @@
   .reviews {
     &__slide-wrapper {
       width: 80%;
+    }
+  }
+  .tudor {
+    &__comparison {
+      height: 200px;
+    }
+    &__comparison-slider {
+      height: 200px;
+    }
+    &__holl-img {
+      width: 120px;
+    }
+    &__kitchen-img-small {
+      height: 210px;
+    }
+  }
+  .service-list {
+    &__item-text {
+      &::before {
+        width: 85%;
+      }
+    }
+  }
+  .slider {
+    &__slide-img {
+      width: 100%;
     }
   }
   .footer {

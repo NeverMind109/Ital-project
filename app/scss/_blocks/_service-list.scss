@@ -1,0 +1,35 @@
+.service-list {
+  &__wrapper {
+    margin-bottom: 140px;
+  }
+  &__title {
+    margin-bottom: 40px;
+  }
+  &__list {
+    list-style-type: none;
+    counter-reset: item;
+    margin: 0;
+  }
+  &__item {
+    padding: 0;
+    margin-bottom: 40px;
+    &:before {
+      content: ".0" counter(item);
+      counter-increment: item;
+      font-size: 28px;
+      line-height: 34px;
+      color: #d8b152;
+    }
+  }
+  &__item-text {
+    padding: 0 25px 0 0;
+    &::before {
+      content: "";
+      display: block;
+      width: 75%;
+      height: 1px;
+      margin: -8px 0 15px 60px;
+      background-color: #503d2b;
+    }
+  }
+}

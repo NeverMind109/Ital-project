@@ -1,0 +1,43 @@
+.application {
+  background: #aea38b;
+  padding: 120px 0 140px;
+  &__wrapper {
+    color: #ffffff;
+  }
+  &__title {
+    margin-bottom: 20px;
+  }
+  &__text {
+    margin-bottom: 60px;
+  }
+  &__form-input {
+    width: 360px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+    padding: 18px 22px 17px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    outline-color: #fff;
+    margin-right: 40px;
+    &::placeholder {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      color: #ffffff;
+    }
+  }
+  &__btn-wrapper {
+    text-align: center;
+    padding: 0;
+  }
+  &__btn {
+    width: 360px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffff;
+  }
+}
