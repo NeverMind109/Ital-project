@@ -543,6 +543,82 @@
       width: 330px;
       height: 330px;
     }
+    &__card-title {
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+  .about {
+    padding: 60px 0 0;
+    &__tab {
+      width: 140px;
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+    &__history-title {
+      margin-bottom: 40px;
+    }
+    &__history-wrapper {
+      margin-bottom: 30px;
+    }
+    &__history-image-big {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    &__history-img-big {
+      width: 300px;
+      height: 360px;
+    }
+    &__history-content {
+      padding: 0;
+      margin-bottom: 30px;
+    }
+    &__history-image-small {
+      text-align: center;
+    }
+    &__history-img-small {
+      width: 300px;
+      height: 300px;
+    }
+    &__history-statistic {
+      margin: 0 0 100px;
+    }
+    &__history-statistic-item {
+      padding: 0;
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+    &__history-statistic-number {
+      margin-bottom: 10px;
+    }
+    &__service-title {
+      margin-bottom: 40px;
+    }
+    &__service-wrapper {
+      margin: 0 0 60px;
+    }
+    &__service-card {
+      padding: 0;
+      margin: 0 0 40px;
+    }
+    &__service-card-bpdy {
+      text-align: left;
+    }
+    &__service-card-text {
+      margin-bottom: 10px;
+    }
+    &__service-card-price {
+      margin-bottom: 30px;
+    }
+    &__service-card-btn {
+      width: 300px;
+    }
+    &__service-card-price {
+      font-size: 20px;
+      line-height: 28px;
+    }
   }
   .footer {
     &__top {
@@ -850,6 +926,17 @@
       }
     }
   }
+  .about {
+    &__tab {
+      font-size: 14px;
+      line-height: 20px;
+      padding: 15px 10px;
+    }
+    &__history-statistic-number {
+      font-size: 28px;
+      line-height: 38px;
+    }
+  }
   .footer {
     &__title {
       font-size: 14px;
@@ -957,6 +1044,22 @@
       height: 300px;
     }
   }
+  .about {
+    &__service-wrapper {
+      margin: 0 0 20px;
+    }
+    &__service-card {
+      &:not(:last-of-type) {
+        border-bottom: 1px solid #aea38b;
+      }
+    }
+    &__service-card-footer {
+      padding-bottom: 40px;
+    }
+    &__service-card-btn {
+      width: 100%;
+    }
+  }
 }
 @media (max-width: 374px) {
   .cards {
@@ -1018,6 +1121,15 @@
     &__card-content {
       width: 100%;
       height: 100%;
+    }
+  }
+  .about {
+    &__tab {
+      display: block;
+      &:not(:last-child) {
+        margin-bottom: 0;
+        margin-bottom: 20px;
+      }
     }
   }
   .footer {

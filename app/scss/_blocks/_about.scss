@@ -1,0 +1,109 @@
+.about {
+  padding: 60px 0 0;
+  &__tabs {
+    margin-bottom: 40px;
+  }
+  &__tab {
+    width: 160px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #424242;
+    padding: 18px 10px 17px;
+    border: 2px solid #aea38b;
+    transition: all 0.3s;
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+    &:hover {
+      background: #aea38b;
+      color: #fff;
+    }
+  }
+  &__history-title {
+    margin-bottom: 60px;
+  }
+  &__tabs-content {
+    display: none;
+    &--active {
+      display: block;
+    }
+  }
+  &__history-wrapper {
+    margin: 0 0 40px;
+  }
+  &__history-image-big {
+    padding: 0;
+  }
+  &__history-img-big {
+    max-width: 100%;
+  }
+  &__history-content {
+    padding: 0 40px;
+  }
+  &__history-text {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+  &__history-image-small {
+    text-align: end;
+    padding: 0;
+  }
+  &__history-img-small {
+    max-width: 100%;
+  }
+  &__blockquote {
+    height: 500px;
+    margin: 0 auto;
+  }
+  &__history-statistic {
+    margin: 0 0 140px;
+  }
+  &__history-statistic-item {
+    padding: 0 40px 0 0;
+  }
+  &__history-statistic-number {
+    display: block;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 20px;
+  }
+  &__service-title {
+    margin-bottom: 60px;
+  }
+  &__service-wrapper {
+    margin: 0 -20px 65px;
+  }
+  &__service-card {
+    padding: 0 20px;
+    margin: 0 0 50px;
+  }
+  &__service-card-image {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &__service-card-img {
+    max-width: 100%;
+  }
+  &__service-card-body {
+    text-align: center;
+  }
+  &__service-card-text {
+    margin-bottom: 20px;
+  }
+  &__service-card-price {
+    display: block;
+    font-size: 28px;
+    line-height: 39px;
+    margin-bottom: 20px;
+  }
+  &__service-card-footer {
+    text-align: center;
+  }
+  &__service-card-btn {
+    width: 260px;
+  }
+}

@@ -71,8 +71,8 @@ body {
   padding: 17px 10px 16px;
   border: 1px solid #d8b152;
   &:hover {
-    border: 1px solid #000;
-    color: #000;
+    border: 1px solid #424242;
+    color: #424242;
     transition: all ease-in-out 0.2s;
   }
   &:active {
@@ -100,8 +100,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: inherit;
   max-width: 1400px;
   background: #aea38b;
+  margin: 0;
 }
 .blockquote-text {
   max-width: 960px;

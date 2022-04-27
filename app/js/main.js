@@ -87,6 +87,15 @@ $(function () {
     }
   });
 
+  $(".about__tab").on("click", function (e) {
+    e.preventDefault();
+    $(".about__tab").removeClass("about__tab--active");
+    $(this).addClass("about__tab--active");
+
+    $(".about__tabs-content").removeClass("about__tabs-content--active");
+    $($(this).attr("href")).addClass("about__tabs-content--active");
+  });
+
   $(".tudor__dining-room-slider").slick({});
   $(".tudor__holl-additional-slider").slick({});
   $(".tudor__master-bedroom-slider").slick({});
