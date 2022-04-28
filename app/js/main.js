@@ -23,11 +23,6 @@ $(function () {
     });
   });
 
-  $(".footer__title-dropdown").on("click", function () {
-    $(this).next().slideToggle();
-    $(".footer__title-dropdown").toggleClass("footer__title-dropdown--active");
-  });
-
   $(".reviews__slider").slick({
     centerMode: true,
     centerPadding: "500px",
@@ -87,6 +82,11 @@ $(function () {
     }
   });
 
+  $(".footer__title-dropdown").on("click", function () {
+    $(this).next().slideToggle();
+    $(".footer__title-dropdown").toggleClass("footer__title-dropdown--active");
+  });
+
   $(".about__tab").on("click", function (e) {
     e.preventDefault();
     $(".about__tab").removeClass("about__tab--active");
@@ -96,16 +96,16 @@ $(function () {
     $($(this).attr("href")).addClass("about__tabs-content--active");
   });
 
-  $(".tudor__dining-room-slider").slick({});
-  $(".tudor__holl-additional-slider").slick({});
-  $(".tudor__master-bedroom-slider").slick({});
-  $(".tudor__bathroom-slider").slick({});
-  $(".tudor__guest-bedroom-slider").slick({});
-  $(".tudor__bathroom-additional-slider").slick({});
-  $(".tudor__story-slider").slick({});
-
   $(".rate-yo").rateYo({
     readOnly: true,
     spacing: "5px",
   });
+  wow = new WOW({
+    boxClass: "wow", // default
+    animateClass: "animated", // default
+    offset: 0, // default
+    mobile: false,
+    live: true, // default
+  });
+  wow.init();
 });

@@ -198,8 +198,24 @@
   }
   .cards {
     &__item {
+      margin: 0 auto;
       &:not(:last-child) {
-        margin-bottom: 30px;
+        margin: 0 auto 30px;
+      }
+      &:nth-child(1) {
+        .cards__item-content {
+          margin: 0 auto;
+        }
+      }
+      &:nth-child(2) {
+        .cards__item-content {
+          margin: 0 auto;
+        }
+      }
+      &:nth-child(3) {
+        .cards__item-content {
+          margin: 0 auto;
+        }
       }
     }
     &__item-content {
